@@ -12,6 +12,6 @@ server.use(middleware);
 server.use(router);
 server.use(jsonserver.bodyParser);
 
-server.listen(port,()=>{
+server.listen(8080,()=>{
     console.log("server is listning on port 8080")
 })
